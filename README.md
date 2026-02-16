@@ -1,5 +1,5 @@
 
-def count_even_numbers(numbers):
+def count_even_numbers(number):
     return sum(1 for n in numbers if n % 2 == 0)
 
 if __name__ == "__main__":
